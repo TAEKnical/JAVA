@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+//bubble sort
+public class Code14 {
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		
+		int n = kb.nextInt();
+		int [] data = new int[n];
+		
+		
+		kb.close();
+	}
+
+}
