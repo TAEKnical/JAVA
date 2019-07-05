@@ -1,0 +1,45 @@
+Course Overview
+Advanced Web Attacks and Exploitation (AWAE) is the premier web application security and pentesting training. Through a unique combination of hands-on and classroom-based learning, AWAE condenses the time it takes for students to successfully learn about the complex tools, techniques, and approach that sophisticated cybercriminals use to create advanced exploits.
+
+To take training outside of the classroom, each student receives access to a virtual penetration testing lab where techniques learned within the course can be practiced in a safe and legal environment. Upon successful completion of the course and certification exam, you will officially become an Offensive Security Web Expert (OSWE), which demonstrates you have mastered the art of exploiting front-facing web applications.
+
+Who is this course for?
+Advanced Web Attacks and Exploitation is not an entry-level course. It has been designed for:
+
+Experienced penetration testers looking to take their web application testing skills to the next level
+Web application developers who need to understand how their code is attacked
+Course Prerequisites
+Advanced Web Attacks and Exploitation has the following prerequisites:
+
+Previous familiarity with web application attack vectors, theory, and practice
+Familiarity with Linux in general, file permissions, navigation, editing, and running scripts
+Ability to write simple Python / Perl / PHP / Bash scripts
+Previous familiarity with web proxies, such as Burp Suite and similar tools
+Only a few days into @offsectraining new #AWAE online course and already learned a TON! If your interested in learning complex web attack-chaining and advanced web app pentesting, this course is for you.
+
+@Octavian
+Course Overview & Syllabus
+AWAE is not a fuzzing course and as such, the bulk of your time will be spent analyzing source code, decompiling Java, debugging DLLs, manipulating requests, and more, using tools like Burp Suite, dnSpy, JD-GUI, Visual Studio, and the trusty text editor. The course covers the following topics in detail; for a more complete breakdown of the course topics, please refer to the AWAE Syllabus.
+
+Persistent Cross-Site Scripting
+Session Hijacking
+.NET Deserialization
+Data Exfiltration
+Bypassing File Extension Filters
+Magic Hashes
+PostgreSQL Extension and User Defined Functions
+Bypassing REGEX restrictions
+Cross-Site Request Forgery
+Type Juggling
+Blind SQL Injection
+Bypassing File Upload Restrictions
+Loose Comparisons
+Bypassing Character Restrictions
+PostgreSQL Large Objects
+Debugging .NET Assemblies
+What competencies will you gain?
+Greater confidence in performing advanced web application source code auditing
+Improved ability to analyze code, write scripts, and exploit web vulnerabilities
+Ability to implement multi-step, chained attacks making use of multiple vulnerabilities
+Increased comfort using creative and lateral thinking to achieve expanded view of standard vectors
+Ability to think outside of the box in order to determine innovative ways of exploiting web vulnerabilities
