@@ -1,19 +1,17 @@
 package section3;
 
 public class test {
-	public int a;
-	public double x;
-	
-	public boolean equals (Object other) {
-		return a == other.a && x == other.x;
-	}
-	
-	public String toString() {
-		return a+ " " + x;
-	}
 	
 	public static void main(String [] args) {
-		test test = new test();
-		System.out.println(test.toString());
+		Object [] array = new Object[100];
+		int a = 20;
+		array[0] = a;
+		
+		int b = (Integer)array[0];
+		System.out.println(b);
+		
+		String str = "1234";
+		int c = Integer.parseInt(str);
+		System.out.println(c);
 	}
 }
