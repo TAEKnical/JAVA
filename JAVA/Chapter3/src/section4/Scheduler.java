@@ -1,5 +1,6 @@
 package section4;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Scheduler {
@@ -35,6 +36,9 @@ public class Scheduler {
 			}
 			else if(command.equals("show")) {
 				handleShow();
+			}
+			else if(command.equals("sort")) {
+				Arrays.sort(events,0,n);
 			}
 			else if(command.equals("exit")) {
 				break;

@@ -19,7 +19,7 @@ public class ShapeApplication {
 				handleShow(command.equals("showdetail"));
 			}
 			else if (command.equals("sort")){
-				bubbleSort();
+				bubbleSort(shapes, n);
 			}
 
 			else if (command.equals("exit")){
@@ -28,18 +28,32 @@ public class ShapeApplication {
 		}
 	}
 
-	private void bubbleSort() {
+	//	private void bubbleSort() {
+	//		for(int i = n-1; i>0; i--) {
+	//			for(int j = 0; j<i; j++) {
+	//				if(shapes[j].computerArea() > shapes[j+1].computerArea()) {
+	//					Shape tmp = shapes[j];
+	//					shapes[j] = shapes[j+1];
+	//					shapes[j+1] = tmp;
+	//				}
+	//			}
+	//		}
+	//		
+	//	}
+	
+	private void bubbleSort(MyComparable [] data, int size) {
 		for(int i = n-1; i>0; i--) {
 			for(int j = 0; j<i; j++) {
-				if(shapes[j].computerArea() > shapes[j+1].computerArea()) {
-					Shape tmp = shapes[j];
-					shapes[j] = shapes[j+1];
-					shapes[j+1] = tmp;
+				if(data[j].CompareTo(data[j+1]) > 0) {
+					MyComparable tmp = data[j];
+					data[j] = data[j+1];
+					data[j+1] = tmp;
 				}
 			}
 		}
-		
+
 	}
+
 
 	private void handleShow(boolean detailed) {
 		for(int i =0 ; i<n; i++) {
@@ -53,7 +67,7 @@ public class ShapeApplication {
 
 	public void handleAdd() {
 		String type = kb.next();
-		
+
 		switch(type) {
 		case "R":
 			int w = kb.nextInt();
@@ -69,7 +83,7 @@ public class ShapeApplication {
 		case "T":
 			//»ý·«
 		}
-			
+
 	}
 
 	private void addShape(Shape shape) {
@@ -83,7 +97,7 @@ public class ShapeApplication {
 		Shape[] tmp = new Shape[capacity];
 		System.arraycopy(shapes, 0, tmp, 0, shapes.length);
 		shapes=tmp;
-		
+
 	}
 
 	public static void main(String[] args) {

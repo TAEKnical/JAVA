@@ -18,4 +18,6 @@ public class DeadlineEvent extends Event{
 	public String toString() {
 		return title + ", " + deadline.toString();
 	}
+	public MyDate getRepresentativeDate() {
+		return deadline;	}
 }
